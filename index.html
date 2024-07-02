@@ -27,7 +27,6 @@
                     <li>
                         <a href="wallet">Wallet</a>
                     </li>
-
                 </ul>
             </nav>
         </div>
@@ -383,42 +382,30 @@
         <script>
             const takeSurvey = document.querySelector(".take-survey");
             const btnClose = document.querySelector(".btn-close");
-            // const takeSurveyButton = document.querySelector(".take-survey .button-survey a");
-            // const reserveButton = document.querySelector(".buttons .reserve");
-            // const rejectButton = document.querySelector(".buttons .reject");
             const bodyContent = document.querySelector(".body-content");
 
-            btnClose.addEventListener("click", function () {
-                closePopup();
-            })
-
-            // takeSurveyButton.addEventListener("click", function () {
-            //     closePopup();
-            // })
-
+            // Функція для відкриття попапу
             function openPopup() {
-                takeSurvey.style.display = "flex";
-                // document.body.style.overflow = "hidden";
-                // bodyContent.style.filter = 'blur(7px)';
-                // bodyContent.style.background = 'rgba(0, 0, 0, 0.30)';
+                if (!localStorage.getItem("popupClosed")) {
+                    takeSurvey.style.display = "flex";
+                }
             }
+
 
             function closePopup() {
                 takeSurvey.style.display = "none";
-                // document.body.style.overflow = "auto";
-                bodyContent.style.filter = 'none'
-                bodyContent.style.background = 'transparent';
+                if (bodyContent) { // Перевірка, чи існує bodyContent
+                    bodyContent.style.filter = 'none';
+                    bodyContent.style.background = 'transparent';
+                }
+                localStorage.setItem("popupClosed", "true");
             }
 
             setTimeout(openPopup, 1000);
-            // setTimeout(closePopup, 15000);
-            // openPopup();
 
-            // reserveButton.addEventListener("click", closePopup);
-            //
-            // rejectButton.addEventListener("click", closePopup);
-
-
+            btnClose.addEventListener("click", function () {
+                closePopup();
+            });
         </script>
     </div>
 </div>
