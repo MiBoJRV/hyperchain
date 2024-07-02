@@ -1,0 +1,429 @@
+.future {
+  background: #222;
+  position: relative;
+  padding: 170px 10px 80px;
+}
+.future .section-content {
+  position: relative;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+}
+.future h1 {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+  margin-bottom: 24px;
+}
+.future p {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  margin-bottom: 24px;
+}
+.future form {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.future form input[type=email] {
+  display: flex;
+  width: 387px;
+  height: 48px;
+  padding: 15px 16px 16px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.future form input[type=email]::placeholder {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.future form button {
+  border-radius: 8px;
+  background: #FFF;
+  color: #222;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.future .error-message {
+  color: red;
+  margin-top: 10px;
+  display: none;
+}
+.future .coins {
+  margin-top: 110px;
+  margin-bottom: -170px;
+}
+.future .coins-list {
+  display: flex;
+  justify-content: space-between;
+}
+.future .coins-list-item {
+  max-width: 232px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 12px 24px 64px 0 rgba(103, 113, 133, 0.2);
+  padding: 20px;
+}
+.future .coins .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 11px;
+}
+.future .coins .action-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.future .coins .action-links .buy {
+  color: #5322E5;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #EFECFE;
+}
+.future .coins .action-links .trade {
+  color: #00994C;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 4px;
+  background: #E6FAEC;
+  padding: 4px 8px;
+}
+.future .coins .info .coins-name span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.future .coins .info .coins-name span:first-child {
+  color: #121D33;
+  margin-right: 7px;
+}
+.future .coins .info .coins-name span:nth-child(2) {
+  color: #677185;
+}
+.future .coins .info .coins-price span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.future .coins .info .coins-price span:first-child {
+  color: #121D33;
+}
+.future .coins .info .coins-price span:nth-child(2) {
+  color: #FF443A;
+}
+
+.separator {
+  height: 184px;
+}
+
+.solution {
+  background: #222;
+  position: relative;
+  padding: 0 10px 110px;
+}
+.solution .section-content {
+  position: relative;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+}
+.solution-info h2 {
+  margin-top: 120px;
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 40px;
+  max-width: 446px;
+  width: 100%;
+}
+.solution-info .button {
+  border-radius: 8px;
+  background: #00FF29;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25.92px;
+  letter-spacing: 0.18px;
+  max-width: 160px;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-img {
+  margin-top: 75px;
+}
+.solution-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.solution-list-item {
+  max-width: 446px;
+  width: 100%;
+  min-height: 80px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 255, 41, 0.3);
+  background: #3C3C3C;
+  padding: 16px 20px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.experience {
+  position: relative;
+  padding: 0 10px 73px;
+}
+.experience .section-content {
+  position: relative;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.experience-info {
+  margin-top: 166px;
+}
+.experience-info h2 {
+  color: #222;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 40px;
+  max-width: 550px;
+  width: 100%;
+}
+.experience-info .button {
+  border-radius: 8px;
+  background: #00FF29;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25.92px;
+  letter-spacing: 0.18px;
+  max-width: 160px;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experience-img {
+  margin-top: 150px;
+}
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.experience-list-item {
+  max-width: 446px;
+  width: 100%;
+  min-height: 80px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 255, 41, 0.3);
+  background: #3C3C3C;
+  padding: 16px 20px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.chargeback {
+  position: relative;
+  padding-top: 200px;
+  padding: 200px 10px 0;
+}
+.chargeback .section-content {
+  position: relative;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+}
+.chargeback h2 {
+  color: #222;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 15px;
+  max-width: 550px;
+  width: 100%;
+}
+.chargeback p {
+  color: #121D33;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 26px;
+  max-width: 480px;
+}
+.chargeback .button {
+  border-radius: 8px;
+  background: #222;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25.92px;
+  letter-spacing: 0.18px;
+  max-width: 180px;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockchains {
+  position: relative;
+  padding: 50px 10px 0;
+}
+.blockchains .section-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto 0 0;
+}
+.blockchains-img {
+  margin-bottom: 40px;
+}
+.blockchains-img img {
+  width: 100%;
+  height: auto;
+}
+.blockchains-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 160px;
+}
+.blockchains-info h2 {
+  color: #222;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 44px;
+  max-width: 550px;
+  width: 100%;
+  text-align: right;
+}
+.blockchains-info p {
+  color: #222;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.blockchains-info p:nth-child(3) {
+  margin-bottom: 44px;
+}
+.blockchains-info .button {
+  border-radius: 8px;
+  background: #00FF29;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25.92px;
+  letter-spacing: 0.18px;
+  max-width: 160px;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: end;
+}
+.blockchains-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+.blockchains-list-item {
+  max-width: 446px;
+  width: 100%;
+  min-height: 80px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 255, 41, 0.3);
+  background: #3C3C3C;
+  padding: 16px 20px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/*# sourceMappingURL=home.css.map */
